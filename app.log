@@ -1,0 +1,29 @@
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 22:48:41] "POST /api/auth/login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\routes\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\routes\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\routes\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 22:49:30] "POST /api/auth/login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\utility\\services.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\routes\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 22:50:23] "POST /api/auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 22:51:34] "POST /api/auth/login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\CODES\\NEAR_KART\\utility\\database.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 884-086-688
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 22:55:10] "POST /api/auth/login HTTP/1.1" 200 -
