@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this home page</h1>
+    <form action="/api/auth/logout" method="POST">
+        <input type="submit" value="Logout" placeholder="logout">
+    </form>
+    <h1>products</h1>
+{% for product in products %}
+    
+
+    <div class="products">
+    <a href="{{ url_for('products.product_detail', product_id=product[0]) }}">
+
+        <img src="/{{ product[5]}}">
+             <p><b>₹{{ product[4] }}</b></p>
+            <p>{{ product[3] }}</p>
+            <p>{{ product[1] }} | {{ product[2] }}</p>
+        </div>
+    </a>
+{% endfor %}
+</body>
+</html>

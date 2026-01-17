@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>signup page</h1>
-    <form action="api/auth/signup" method="POST">
+    <h1><a href="{{ url_for('products.seller_login') }}">Go to Signup</a></h1>
+    <h1>seller signup page</h1>
+    <form action="api/auth/seller/signup" method="POST">
         
         <input type="text" name="username" placeholder="enter user name"><br>
         <input type="email" name="email" placeholder="enter email"><br>

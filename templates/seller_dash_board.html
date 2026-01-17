@@ -32,7 +32,6 @@
 
     </div>
     
-    <h1>hello world </h1>
 
     <h1>enter the image you want to upload to sell</h1>
     <form action="/api/products" method="post" enctype="multipart/form-data">
@@ -49,6 +48,7 @@
             <option value="shoes">shoes</option>
             <option value="jackets">jackets</option>
             <option value="watches">watches</option>
+            <option value="traditional">traditional</option>
         </datalist>
         <input list="options1" name="gender"  placeholder="select the gender "/>
 
@@ -60,11 +60,20 @@
         <input type="number" name="price" placeholder="enter the price ">
     </form>
 
-    <div name="images">
-        {% for image in tshirts %}
+ 
+
+    <form action="/api/auth/logout" method="POST">
+        <input type="submit" value="Logout" placeholder="logout">
+    </form>
+     
+    <h1>recently upload products</h1>
+
+
+       <div name="images">
+        {% for product in products %}
             <div>
-                <img src="{{ img.url }}" alt="Image" width="200">
-                <p>{{ img.description }}</p>
+                <img src="/{{ product[0] }}" alt="Image" width="200">
+                <p>₹{{ product[1]}}</p>
             </div>
         {% endfor %}
     </div>

@@ -8,7 +8,7 @@ def validate_product_data(products):
     image=products.get("image")
 
     
-    if len(products["category"])>10:
+    if len(products["category"])>20:
         return {
             "field": "category",
             "message": "Category is required"
@@ -54,7 +54,7 @@ def validate_product_data(products):
         return "Image size exceeds 5MB limit",400
     
     
-def validate_seller_data(sellerdata):
+def validate_data(sellerdata):
 
     if len(sellerdata["username"])<3:
         return {"error":"Name must be at least 3 characters long"},400

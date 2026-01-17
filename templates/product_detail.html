@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produc details</title>
+</head>
+<body>
+    <h1>product details</h1>
+    <img src="/{{ product.image_path }}" alt="Product Image">
+
+    <p>Description: {{ product.description }}</p>
+    <p>Category: {{ product.category }}</p>
+    <p>Gender: {{ product.gender }}</p>
+    <p>Price: ₹{{ product.price }}</p>
+</body>
+</html>
