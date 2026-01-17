@@ -21,7 +21,7 @@ The project focuses on understanding backend request flow and system structure w
 - Modular structure using Flask blueprints and utility layers
 
 ## Project Structure:
-
+```text
 project/
 ├── app.py
 ├── blueprints/
@@ -39,6 +39,7 @@ project/
 │   ├── customer_login.html
 │   └── customer_signup.html
 └── seller.db
+```
 
 ## Running the Project
 
