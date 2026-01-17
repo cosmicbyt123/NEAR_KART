@@ -51,6 +51,7 @@ python app.py
 ```
 ## Scope & Limitations:
 -No background processing or async tasks
+
 -No order, payment, or inventory workflows implemented
 
 
