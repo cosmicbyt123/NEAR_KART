@@ -3,6 +3,9 @@
 NearKart is a role-based backend system built with Flask that demonstrates authentication, authorization, session management, and file handling in a multi-user environment.
 The project focuses on understanding backend request flow and system structure without relying on heavy abstractions.
 
+## Demo video 
+https://youtu.be/2X9jb3S9eds
+
 ## Features:
 
 ### Seller Role
@@ -49,4 +52,5 @@ python app.py
 ## Scope & Limitations:
 -No background processing or async tasks
 -No order, payment, or inventory workflows implemented
+
 
